@@ -110,7 +110,7 @@ WHERE name IN ('sga_target','pga_aggregate_target','db_block_size','processes',
 ORDER BY name;
 
 PROMPT
-PROMPT === 11. OS-LEVEL INSTANCE PROCESSES (run outside SQL*Plus) ===
+PROMPT === 11. OS-LEVEL INSTANCE PROCESSES (run outside SQL*Plus) ===  
 PROMPT On Linux/Unix: ps -ef | grep -E 'ora_|pmon' | grep -v grep
 
 SPOOL OFF
